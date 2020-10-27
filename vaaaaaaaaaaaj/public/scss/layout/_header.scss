@@ -1,0 +1,142 @@
+#mobile_header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  display: none;
+  height: 100px;
+  background: #fff;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  #menu_bar {
+    width: 25px;
+    rect {
+      fill: $gray-300;
+      transition: 0.2s;
+    }
+    &.active,
+    &:hover {
+      cursor: pointer;
+      rect {
+        fill: $gray-200;
+      }
+    }
+  }
+}
+#header {
+  font-family: $font-title;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+
+  #navigation {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    li {
+      padding-bottom: 15px;
+      text-align: center;
+      font-family: $font-body;
+    }
+  }
+  .logo {
+    padding-top: 20px;
+    text-align: center;
+    background: rgba(255,255,255,0.4);
+    img {
+      width: 40px;
+      margin-bottom: 15px;
+    }
+    h1 {
+      font-size: 18px;
+
+    }
+    h2 {
+      font-size: 12px;
+      color: $orange-color;
+    }
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  #header {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    #navigation {
+      position: relative;
+      bottom: auto;
+      width: auto;
+      ul{
+        display: flex;
+        justify-content: space-between;
+      }
+      li {
+        padding-bottom: 0;
+        padding-left: 30px;
+      }
+    }
+    .logo {
+      padding-top: 0px;
+
+      img {
+        margin-bottom: 5px;
+      }
+      h1 {
+        font-size: 16px;
+      }
+      h2 {
+        display: none;
+      }
+    }
+
+  }
+}
+
+
+@media (max-width: 767px)  {
+  #mobile_header {
+
+    display: flex;
+    .logo {
+      text-align: center;
+      padding-top: 0px;
+      img {
+        margin-bottom: 5px;
+        width: 35px;
+      }
+      h1 {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 0;
+      }
+    }
+  }
+    #header {
+      z-index: 997;
+      background: #fff;
+    width: 0px;
+      transition: 0.5s;
+    overflow: hidden;
+
+    .logo {
+     display: none;
+    }
+      &.active{
+        width: 250px;
+      }
+
+  }
+}

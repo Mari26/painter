@@ -1,0 +1,33 @@
+#lightbox {
+  width: 80%;
+  left: 10% !important;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  @include media-breakpoint-down(md){
+    flex-direction: column;
+  }
+
+  h2 {
+    color: #fff;
+    padding-bottom: 15px ;
+  }
+  .lb-dataContainer {
+    padding-left: 20px;
+  }
+  .light_desc {
+    font-size: 15px;
+    line-height: 1.5em;
+  }
+  .lb-close {
+    &:after {
+      display: none;
+    }
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .lb-number {
+    display: none;
+  }
+}

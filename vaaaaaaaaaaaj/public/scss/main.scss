@@ -1,0 +1,107 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+
+@import "base/fonts";
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "base/reset";
+@import "layout/navigation";
+@import "components/pagination";
+@import "layout/header";
+@import "components/loader";
+@import "components/carousel";
+@import "components/lightbox";
+
+@import "pages/article";
+@import "pages/home";
+@import "pages/contact";
+@import "pages/category";
+@import "pages/exhibition";
+
+@import "layout/footer";
+
+
+
+
+#content {
+  position: relative;
+  max-width: calc( 100% - 300px );
+  left: 300px;
+  padding-bottom: 150px;
+  padding-top: 120px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+font-family: $font-title;
+}
+
+::-moz-selection {
+  background: $gray-700;
+  color: #fff;
+}
+::selection {
+  background: $gray-300;
+  color: #fff;
+}
+
+body::-webkit-scrollbar {
+  width: 0.45em;
+  height: 0px;
+}
+
+body::-webkit-scrollbar-track {
+  background: $gray-100;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $gray-300
+}
+
+
+
+@media (max-width: 991px)  {
+  #content {
+    max-width: 100%;
+    left: 0;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #content {
+   padding-top: 190px
+  }
+}
+
+@media (max-width: 767px) {
+  #content {
+    padding-top: 190px;
+    transition: 0.5s;
+  }
+  #content.active {
+   left: 300px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+
+
+body {
+  background-image: url(../images/body-bg.png) !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+@media (max-width: 991px) {
+  body {
+    background-size: contain;
+    background-position: 0 100px;
+
+
+  }
+}

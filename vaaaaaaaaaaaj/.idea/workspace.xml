@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4786456c-8900-4b7d-b49d-2ee3fb116cd2" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1XUeuxwpTBXy1jHLQXJVUHWxGnm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.56" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\n.elizbarashvili\Desktop\vaaaaaaaaaaaj\public" />
+      <recent name="C:\Users\nikoloz\Desktop\proj - Copy\public\scss\vendor\bootstrap" />
+      <recent name="C:\Users\nikoloz\Desktop\proj\public" />
+      <recent name="C:\Users\nikoloz\Desktop\proj\public\scss\pages" />
+      <recent name="C:\Users\nikoloz\Desktop\proj\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nikoloz\Desktop\proj - Copy\public\scss" />
+      <recent name="C:\Users\PC\Desktop\geocomfort\public\scss\vendors" />
+      <recent name="C:\Users\PC\Desktop\geocomfort\public\scss\base" />
+      <recent name="C:\Users\PC\Desktop\geocomfort\public\scss\abstracts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bpn/public/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4786456c-8900-4b7d-b49d-2ee3fb116cd2" name="Default" comment="" />
+      <created>1528617066147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528617066147</updated>
+      <workItem from="1528617067477" duration="6489000" />
+      <workItem from="1531036975379" duration="1198000" />
+      <workItem from="1531120421275" duration="372000" />
+      <workItem from="1536313745354" duration="315000" />
+      <workItem from="1536832496597" duration="5000" />
+      <workItem from="1537854303607" duration="1740000" />
+      <workItem from="1537856109859" duration="42000" />
+      <workItem from="1537856672275" duration="11229000" />
+      <workItem from="1537891255955" duration="24391000" />
+      <workItem from="1538299222815" duration="84000" />
+      <workItem from="1539158885857" duration="308000" />
+      <workItem from="1556648861386" duration="35000" />
+      <workItem from="1556649832404" duration="646000" />
+      <workItem from="1563870890109" duration="11993000" />
+      <workItem from="1563951310488" duration="10624000" />
+      <workItem from="1564038090365" duration="8734000" />
+      <workItem from="1564123369107" duration="8297000" />
+      <workItem from="1564168451156" duration="1347000" />
+      <workItem from="1564820970546" duration="21369000" />
+      <workItem from="1564927661533" duration="73000" />
+      <workItem from="1565017426996" duration="4405000" />
+      <workItem from="1565033239184" duration="79000" />
+      <workItem from="1569743587835" duration="49000" />
+      <workItem from="1581105333767" duration="1287000" />
+      <workItem from="1581149321039" duration="21717000" />
+      <workItem from="1581404082828" duration="250000" />
+      <workItem from="1584259661777" duration="1590000" />
+      <workItem from="1584263850860" duration="18605000" />
+      <workItem from="1584338775857" duration="5712000" />
+      <workItem from="1584856610878" duration="5971000" />
+      <workItem from="1585733047033" duration="7218000" />
+      <workItem from="1585829798467" duration="8481000" />
+      <workItem from="1585900001806" duration="9862000" />
+      <workItem from="1586260718720" duration="12169000" />
+      <workItem from="1586338137514" duration="7659000" />
+      <workItem from="1586424082022" duration="17108000" />
+      <workItem from="1586590998306" duration="21258000" />
+      <workItem from="1586620929792" duration="272000" />
+      <workItem from="1590686285984" duration="3379000" />
+      <workItem from="1590732771744" duration="569000" />
+      <workItem from="1590736172011" duration="28385000" />
+      <workItem from="1590823405744" duration="12449000" />
+      <workItem from="1592201930253" duration="632000" />
+      <workItem from="1592241422554" duration="95000" />
+      <workItem from="1596874253992" duration="80000" />
+      <workItem from="1596874935303" duration="76000" />
+      <workItem from="1596875052375" duration="158000" />
+      <workItem from="1596875511868" duration="1952000" />
+      <workItem from="1596899967652" duration="3558000" />
+      <workItem from="1597134377987" duration="12096000" />
+      <workItem from="1597219095203" duration="7365000" />
+      <workItem from="1597306666527" duration="3789000" />
+      <workItem from="1599749334904" duration="790000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590686434082">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590686434082" />
+    <state x="2571" y="174" key="FileChooserDialogImpl" timestamp="1597142645345">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596901499002" />
+    <state x="2571" y="174" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597142645345" />
+    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1596900684452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1596900684452" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596875924474">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596875924474" />
+  </component>
+</project>

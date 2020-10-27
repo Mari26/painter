@@ -1,0 +1,17 @@
+#footer {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 30px;
+  font-size: 12px;
+  background: $gray-100;
+  color: $gray-200;
+  @extend %flex-horizontal;
+  a {
+    color: $gray-200;
+    &:hover {
+      color: $gray-300;
+    }
+  }
+}
