@@ -5,7 +5,6 @@ var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync').create();
 
-
 var config = {
     path: {
         scss: './public/scss/**/*.scss',
@@ -54,4 +53,4 @@ gulp.task('serve', gulp.series('sass', function() {
     gulp.watch(config.path.html).on('change', browserSync.reload);
 }));
 
-gulp.task('default', gulp.parallel('js','serve'));
+gulp.task('default', gulp.parallel('sass','js','serve'));
