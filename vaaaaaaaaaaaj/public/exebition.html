@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MY</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+    <div id="mobile_header">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+            <h1>VAJA KURKHULI</h1>
+
+        </div>
+        <svg version="1.1" id="menu_bar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 341.333 341.333" xml:space="preserve">
+
+		<g>
+			<rect x="128" y="128" width="85.333" height="85.333"/>
+            <rect x="0" y="0" width="85.333" height="85.333"/>
+            <rect x="128" y="256" width="85.333" height="85.333"/>
+            <rect x="0" y="128" width="85.333" height="85.333"/>
+            <rect x="0" y="256" width="85.333" height="85.333"/>
+            <rect x="256" y="0" width="85.333" height="85.333"/>
+            <rect x="128" y="0" width="85.333" height="85.333"/>
+            <rect x="256" y="128" width="85.333" height="85.333"/>
+            <rect x="256" y="256" width="85.333" height="85.333"/>
+		</g>
+
+
+        </svg>
+    </div>
+
+
+    <div id="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+            <h1>VAJA KURKHULI</h1>
+            <h2>GALLERY</h2>
+        </div>
+
+        <nav id="navigation">
+            <ul>
+                <li><a href="">მთავარი</a></li>
+                <li><a href="">ვინ ვარ მე?</a></li>
+                <li><a href="">გრაფიკა</a></li>
+                <li><a href="">ილუსტრაცია</a></li>
+                <li><a href="">გამოფენები</a></li>
+                <li><a href="">კონტაქტი</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="content">
+        <div class="container-fluid">
+
+            <p>kontaqti</p>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="footer">
+            <span>
+            © <span class="d-none d-sm-inline">2020 vaja kurkhuli. All Rights Reserved.</span>
+            </span>
+
+            <div class="social">
+                <a href="">Facebook</a>
+            </div>
+
+            <span> <span class="d-none d-sm-inline">Phone: </span> 819 640-2511 </span>
+            <span><span class="d-none d-sm-inline">Email:</span> <a href=""> info@duchanvre.com </a></span>
+
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+
+            $("#menu_bar").click(function() {
+                $(this).toggleClass('active')
+                $('#header').toggleClass('active')
+            })
+        </script>
+</body>
+
+</html>
