@@ -1,0 +1,27 @@
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    font-size: 20px;
+    padding: 16px;
+    width: auto;
+}
+
+.next {
+    border-radius: 3px 0 0 3px;
+    right: 95px;
+    margin-top: -67px;
+}
+
+.prev {
+    left: -30px;
+    margin-top: -62px;
+}
+
+.prev:hover,
+.next:hover {}
