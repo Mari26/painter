@@ -1,3 +1,6 @@
+/*
+
+
 .prev,
 .next {
     cursor: pointer;
@@ -13,15 +16,51 @@
 }
 
 .next {
-    border-radius: 3px 0 0 3px;
-    right: 95px;
-    margin-top: -67px;
+    right: 120px;
+    margin-top: -50px;
 }
 
 .prev {
     left: -30px;
-    margin-top: -62px;
+    margin-top: 0px;
 }
 
 .prev:hover,
 .next:hover {}
+*/
+
+.exhibition {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.list-complete {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.list-complete-item {
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+    flex: 1 1 25%;
+    margin: 15px;
+    position: relative;
+}
+
+.list-complete-img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
