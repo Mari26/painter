@@ -62,14 +62,14 @@
 
         <div class="exhibition-container">
             <div class="exhibition">
-                <div class="exhibition__item" id="hide">
+                <div class="exhibition__item" id="hide-2003-usa-1">
                     <a href="#">
                         <span class="year">2003</span>
                         <sup class="country">აშშ</sup>
 
                     </a>
                 </div>
-                <div class="exhibition__item">
+                <div class="exhibition__item" id="hide_2003-usa-2">
 
                     <a href="#">
                         <span class="year">2003</span>
@@ -108,20 +108,34 @@
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
 -->
+
+
+
+
+
             <div class="list-complete" id="img">
 
                 <div class="list-complete-item">
-
-                    <img class="list-complete-img" src="images/photos/1.jpg" />
-
+                    <a href="images/photos/1.jpg" data-lightbox="example-1" data-title="
+                        <h2>My caption</h2>
+                        <div class='light_desc'>
+                        <p>Lorem Ipsum is simply dummy text </p>
+                        </div>">
+                        <div class="list-complete-item__caption">
+                            <h2> მთაწმინდა</h2>
+                            <span></span>
+                        </div>
+                        <img class="list-complete-img" src="images/photos/1.jpg" />
+                    </a>
                 </div>
 
-                <div class="list-complete-item">
+
+                <div class="list-complete-item" id="show">
 
                     <img class="list-complete-img" src="images/photos/2.jpg" />
 
                 </div>
-                <div class="list-complete-item">
+                <div class="list-complete-item" id="item-0">
 
 
                     <img src="images/photos/3.jpg" class="list-complete-img " alt=" ">
@@ -133,32 +147,32 @@
                     <img class="list-complete-img" src="images/photos/4.jpg" />
 
                 </div>
-                <div class="list-complete-item">
+                <div class="list-complete-item" id="item-1">
 
                     <img class="list-complete-img" src="images/photos/2.jpg" />
 
                 </div>
-                <div class="list-complete-item">
+                <div class="list-complete-item" id="item-2">
 
                     <img class="list-complete-img" src="images/photos/3.jpg" />
 
                 </div>
-                <div class="list-complete-item">
+                <div class="list-complete-item" id="item-3">
 
                     <img class="list-complete-img" src="images/photos/2.jpg" />
 
                 </div>
-                <div class="list-complete-item">
+                <div class="list-complete-item" id="item-4">
 
                     <img class="list-complete-img" src="images/photos/3.jpg" />
 
                 </div>
-                <div class="list-complete-item">
+                <div class="list-complete-item" id="item-5">
 
                     <img class="list-complete-img" src="images/photos/2.jpg" />
 
                 </div>
-                <div class="list-complete-item">
+                <div class="list-complete-item" id="item-6">
 
                     <img class="list-complete-img" src="images/photos/3.jpg" />
 
@@ -167,8 +181,8 @@
             </div>
         </div>
     </div>
-
-
+    </div>
+    </div>
 
 
     </div>
@@ -205,6 +219,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
 
+
     <script>
         $('.owl-carousel').owlCarousel({
             loop: true,
@@ -230,13 +245,36 @@
         })
 
         $(function() {
-            $("#hide").click(function() {
-                $("#img").toggle();
-
+            $("#hide-2003-usa-1").click(function() {
+                $("#item-0").toggle();
+                $("#item-1").toggle();
+                $("#item-2").toggle();
+                $("#item-3").toggle();
+                $("#item-4").toggle();
+                $("#item-5").toggle();
+                $("#item-6").toggle();
 
             })
+
+            $("#hide_2003-usa-2").click(function() {
+                $("#item-0").toggle();
+                $("#item-1").toggle();
+                $("#item-2").toggle();
+                $("#item-3").toggle();
+                $("#item-4").toggle();
+                $("#item-5").toggle();
+                $("#item-6").toggle();
+
+            })
+
+
+
+
+
         })
     </script>
+
+
 </body>
 
 </html>
