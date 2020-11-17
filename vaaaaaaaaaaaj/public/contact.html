@@ -5,10 +5,13 @@
     <title>MY</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/contact.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" </head>
+
+
 </head>
 
 <body>
@@ -62,13 +65,13 @@
             <div class="d-flex  mb-4  ">
 
 
-                <div class="media mb-4" style="width: 270px" id="href" ;>
+                <div class="media mb-4" style="width: 350px" id="href" ;>
                     <span class="media-left">
-                        <a href=" " > <img src="images/photos/tel.svg"  width="60px" height="30px" alt="..."></a>
+                        <a href=" " > <i class="fa fa-phone fa-rotate-90 " aria-hidden="true"  > </i></a>
                     </span>
                     <div class="media-body" id="href">
                         <a href=" ">
-                            <p>ტელეფონი <br>43 34 43 43</p>
+                            <p style="color: #f5af22;font-weight: bold;" class="ml-3">43 34 43 43</p>
                         </a>
 
                     </div>
@@ -76,13 +79,13 @@
 
 
 
-                <div class="media mb-4" style="width: 270px" id="href">
+                <div class="media mb-4" style="width: 350px" id="href">
                     <span class="media-left media-middle">
-                        <a href=" " ><img src="images/photos/mail.svg"  width="60px" height="30px" alt="..."></a>
+                        <a href=" " ><i class="fa fa-envelope" aria-hidden="true"></i></a>
                     </span>
                     <div class="media-body" id="href">
                         <a href=" ">
-                            <p>მეილი <br>z.sdfsd@gmail.com</p>
+                            <p style="color: #f5af22;font-weight: bold;" class="ml-3">z.sdfsd@gmail.com</p>
                         </a>
 
                     </div>
@@ -90,11 +93,11 @@
 
                 <div class="media mb-4" id="href">
                     <span class="media-left media-middle">
-                        <a href=" " ><img src="images/photos/soc.svg" width="60px" height="30px" alt="..."></a>
+                        <a href=" " ><i class="fa fa-globe" aria-hidden="true"></i></a>
                     </span>
                     <div class="media-body" id="href">
                         <a href=" ">
-                            <p>სოციალური ქსელი <br>facebook </p>
+                            <p style="color: #f5af22;font-weight: bold;" class="ml-3">facebook </p>
                         </a>
 
                     </div>
@@ -105,32 +108,84 @@
 
 
             <form>
-                <div class="form-row">
-                    <div class="form-group col-md-4 ">
-                        <label class="lb-sm" for="">სახელი</label>
-                        <input type="text" class="form-control" id="inputEmail4" placeholder="">
-                    </div>
-                    <div class="form-group col-md-4 ">
-                        <label class="lb-sm" for="">გვარი</label>
-                        <input type="text" class="form-control" id="inputEmail4" placeholder="">
-                    </div>
 
-                    <div class="form-group col-md-8">
-                        <label class="lb-sm" for="inputAddress">მეილი</label>
-                        <input type="email" class="form-control" id="inputAddress" placeholder="">
-                    </div>
-                    <div class="form-group col-md-8">
-                        <label class="lb-sm" for="exampleFormControlTextarea1">მესიჯი</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                    </div>
+                <fieldset class="formRow">
+
+                    <div class="form-row">
+                        <div class="formRow--item col-md-5 ">
+
+                            <label for="firstname" class="formRow--input-wrapper js-inputWrapper">
+                
+                  <input type="text" class="formRow--input js-input" id="firstname" placeholder="სახელი">
+                
+                    </label>
+
+                        </div>
+                        <div class="formRow--item col-md-5 ">
+
+                            <label for="firstname" class="formRow--input-wrapper js-inputWrapper">
+                    
+                          <input type="text" class="formRow--input js-input" id="lastname" placeholder="გვარი">
+                    
+                        </label>
+
+                        </div>
+
+
+                        <div class="formRow--item col-md-10">
+
+                            <label for="firstname" class="formRow--input-wrapper js-inputWrapper">
+                    
+                          <input type="email" class="formRow--input js-input" id="email" placeholder="მეილი">
+                    
+                        </label>
+                        </div>
+
+                        <div class="col-md-10">
+
+                            <label for="firstname" class="formRow--input-wrapper js-inputWrapper">
+                    
+                                <input type="textarea" class="formRow--input js-input" id="lastname" placeholder="მესიჯი">
+                          
+                              </label>
+                        </div>
+
+
+                </fieldset>
+                <button type="submit" class="btn btn-primary">Send message</button>
+
+
                 </div>
 
+            </form>
+            <!--
+            <form>
+            <div class="form-row">
+                <div class="form-group col-md-4 ">
+                    <label class="lb-sm" for="">სახელი</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="">
+                </div>
+                <div class="form-group col-md-4 ">
+                    <label class="lb-sm" for="">გვარი</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="">
+                </div>
+
+                <div class="form-group col-md-8">
+                    <label class="lb-sm" for="inputAddress">მეილი</label>
+                    <input type="email" class="form-control" id="inputAddress" placeholder="">
+                </div>
+                <div class="form-group col-md-8">
+                    <label class="lb-sm" for="exampleFormControlTextarea1">მესიჯი</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+            </div>
 
 
-                <button type="submit" class="btn btn-primary">Send message</button>
+
+            <button type="submit" class="btn btn-primary">Send message</button>
             </form>
 
-
+            -->
 
         </div>
 
@@ -150,9 +205,10 @@
         <span><span class="d-none d-sm-inline">Email:</span> <a href=""> info@duchanvre.com </a></span>
 
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/index.js"></script>
 
     <script>
         $('.owl-carousel').owlCarousel({
@@ -177,6 +233,23 @@
             $(this).toggleClass('active')
             $('#header').toggleClass('active')
         })
+    </script>
+
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
     </script>
 </body>
 
