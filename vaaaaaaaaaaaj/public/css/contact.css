@@ -260,3 +260,95 @@
     .show>.btn-outline-primary.dropdown-toggle:focus {
         box-shadow: white;
     }
+    
+    .styled-input label {
+        color: #2c3235;
+        padding: 1rem;
+        position: absolute;
+        top: 8px;
+        left: 10px;
+        -webkit-transition: all 0.25s ease;
+        transition: all 0.25s ease;
+        pointer-events: none;
+        /*
+        padding: 1rem;
+        position: absolute;
+        top: -5;
+        left: 0;
+        background-color: #ffffff;
+        color: #2c3235;
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        font-size: 11px;
+        line-height: 14px;
+        -webkit-transition: all 0.25s ease;
+        transition: all 0.25s ease;
+        pointer-events: none;
+        */
+    }
+    
+    textarea:focus~label,
+    textarea:valid~label {
+        font-size: 0.75em;
+        color: #2c3235;
+        top: -1.5rem;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        background-color: white;
+        height: 2px;
+    }
+    
+    textarea {
+        /*
+        padding: 1rem 1rem;
+        border: 0;
+        width: 100%;
+        font-size: 1rem;
+        */
+        border: solid 1px #b2c4d4;
+        border-radius: 4px;
+        color: #2c3235;
+        box-shadow: 0px 1px 2px 0px #b2c4d4;
+        font-family: "helv-light";
+        height: 300px;
+        width: 100%;
+    }
+    
+    textarea~span {
+        color: #2c3235;
+        height: 2px;
+        position: absolute;
+        left: 10px;
+        display: block;
+        -webkit-transition: all 0.125s ease;
+        transition: all 0.125s ease;
+        white-space: nowrap;
+        letter-spacing: .2px;
+        font-weight: normal;
+        font-size: 14px;
+        font-family: "helv-light";
+        /* display: block;
+        width: 0;
+        height: 3px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        -webkit-transition: all 0.125s ease;
+        transition: all 0.125s ease;
+        */
+    }
+    
+    textarea:focus {
+        border-color: #b2c4d4;
+    }
+    
+    textarea:focus~span {
+        width: 100%;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    
+    textarea {
+        width: 100%;
+        padding: 15px 20px 11px;
+    }
