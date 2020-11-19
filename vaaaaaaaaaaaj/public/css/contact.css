@@ -110,7 +110,7 @@
         resize: none;
         -webkit-transition: all .2s ease;
         transition: all .2s ease;
-        box-shadow: 0 1px 2px 0;
+        box-shadow: 0px 1px 2px 0px #b2c4d4;
     }
     
     .formRow--input-wrapper {
@@ -166,7 +166,7 @@
         border: solid 1px #b2c4d4;
         border-radius: 4px;
         color: #2c3235;
-        box-shadow: 0 1px 2px 0;
+        box-shadow: 0px 1px 2px 0px #b2c4d4;
         font-family: "helv-light";
         height: 300px;
         width: 100%;
