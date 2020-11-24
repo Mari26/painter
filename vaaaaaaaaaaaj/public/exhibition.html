@@ -5,9 +5,12 @@
     <title>MY</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/exhibition.css">
+
+
+
 </head>
 
 <body>
@@ -56,10 +59,71 @@
             </ul>
         </nav>
     </div>
+
     <div id="content">
 
 
+        <div class="carousel right">
 
+            <div class="indicator"></div>
+
+            <div class="wrap">
+
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span>2003</span>
+                            <sup>მექსიკა</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>2004</span>
+                            <sup>მექსიკა</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>2005</span>
+                            <sup>საქართველო</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>2006</span>
+                            <sup>მექსიკა</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>2007</span>
+                            <sup>მექსიკა</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>2008</span>
+                            <sup>ინგლისი</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>2009</span>
+                            <sup>ამერიკა</sup>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--
         <div class="exhibition-container">
             <div class="exhibition">
                 <div class="exhibition__item" id="hide-2003-usa-1">
@@ -103,30 +167,25 @@
                         <sup class="country">აშშ</sup>
                     </a>
                 </div>
-            </div>
-            <!--
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            
+         
+
 -->
+    </div>
+
+    <!--
+        <div class="list-complete">
 
 
 
-
-
-            <div class="list-complete" id="img">
+           
 
                 <div class="list-complete-item">
-                    <a href="images/photos/1.jpg" data-lightbox="example-1" data-title="
-                        <h2>My caption</h2>
-                        <div class='light_desc'>
-                        <p>Lorem Ipsum is simply dummy text </p>
-                        </div>">
-                        <div class="list-complete-item__caption">
-                            <h2> მთაწმინდა</h2>
-                            <span></span>
-                        </div>
-                        <img class="list-complete-img" src="images/photos/1.jpg" />
-                    </a>
+
+
+                    <img class="list-complete-img" src="images/photos/1.jpg" />
+
                 </div>
 
 
@@ -177,17 +236,17 @@
                     <img class="list-complete-img" src="images/photos/3.jpg" />
 
                 </div>
-
-            </div>
+           
         </div>
     </div>
     </div>
     </div>
+    </div>
 
 
     </div>
     </div>
-
+ -->
 
 
 
@@ -216,61 +275,16 @@
     </div>
 
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.hoverCarousel.js"></script>
+
+
 
 
     <script>
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: false,
-            dots: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 3
-                }
-            }
-        })
-
         $("#menu_bar").click(function() {
             $(this).toggleClass('active')
             $('#header').toggleClass('active')
-        })
-
-        $(function() {
-            $("#hide-2003-usa-1").click(function() {
-                $("#item-0").toggle();
-                $("#item-1").toggle();
-                $("#item-2").toggle();
-                $("#item-3").toggle();
-                $("#item-4").toggle();
-                $("#item-5").toggle();
-                $("#item-6").toggle();
-
-            })
-
-            $("#hide_2003-usa-2").click(function() {
-                $("#item-0").toggle();
-                $("#item-1").toggle();
-                $("#item-2").toggle();
-                $("#item-3").toggle();
-                $("#item-4").toggle();
-                $("#item-5").toggle();
-                $("#item-6").toggle();
-
-            })
-
-
-
-
-
         })
     </script>
 
