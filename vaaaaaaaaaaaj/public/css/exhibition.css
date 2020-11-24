@@ -35,7 +35,8 @@
     flex-wrap: wrap;
     padding-top: 10px;
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 70px;
+    margin-top: 70px;
 }
 
 .list-complete {
@@ -168,7 +169,7 @@ img {
     z-index: 4;
     bottom: 0;
     left: 0;
-    background: #292828;
+    background: #292826;
     height: 4px;
     border-radius: 6px;
     opacity: 0;
@@ -211,8 +212,30 @@ li span {
     font-weight: bold;
 }
 
+#plz li span {
+    padding-top: 10px;
+}
+
 li sup {
     color: #FFF;
+}
+
+#plz li a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: none;
+    transition: 0.3s;
+    margin-top: 0px;
+}
+
+#plz li a:hover {
+    color: #fff;
+}
+
+li a:hover:after {
+    width: 0%;
 }
 
 .carousel>.wrap>ul>li:first-child {
@@ -228,4 +251,38 @@ li sup {
     z-index: 1;
     -webkit-transition: 1s ease;
     transition: 1s ease;
+}
+
+
+/*bladuni*/
+
+.elem,
+.elem * {
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.elem {
+    display: inline-block;
+    font-size: 0;
+    width: 30%;
+    border-bottom: none;
+    background: #fff;
+    height: auto;
+    background-clip: padding-box;
+}
+
+.elem>span {
+    display: block;
+    cursor: pointer;
+    height: 0;
+    padding-bottom: 70%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#theend {
+    margin-left: 50px;
 }
