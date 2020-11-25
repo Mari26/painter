@@ -80,8 +80,8 @@ img {
     text-align: center;
     padding: 5 0 5 0px;
     border-radius: 6px;
-    -webkit-box-shadow: 0 4px 10px #555;
-    box-shadow: 0 4px 10px #555;
+    -webkit-box-shadow: 0 1px 2px #c8bfbf;
+    box-shadow: 0 1px 2px #c8bfbf;
     height: 80px;
     -webkit-overflow-scrolling: touch;
     /* for tablets */
@@ -152,7 +152,7 @@ img {
 }
 
 .carousel>a:hover {
-    color: #FFF;
+    color: #8a8585;
 }
 
 .carousel>a.prev {
@@ -169,7 +169,7 @@ img {
     z-index: 4;
     bottom: 0;
     left: 0;
-    background: #292826;
+    background: #8a8585;
     height: 4px;
     border-radius: 6px;
     opacity: 0;
@@ -203,11 +203,11 @@ img {
     overflow: hidden;
     -webkit-transition: 0.25s ease-out;
     transition: 0.25s ease-out;
-    background-color: #575555;
+    background-color: #FFF;
 }
 
 li span {
-    color: #FFF;
+    color: black;
     font-size: 35px;
     font-weight: bold;
 }
@@ -217,7 +217,7 @@ li span {
 }
 
 li sup {
-    color: #FFF;
+    color: black;
 }
 
 #plz li a:after {
@@ -262,6 +262,7 @@ li a:hover:after {
     position: relative;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-left: 2px;
 }
 
 .elem {
@@ -284,5 +285,5 @@ li a:hover:after {
 }
 
 #theend {
-    margin-left: 50px;
+    margin-left: 60px;
 }
