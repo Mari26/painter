@@ -80,8 +80,8 @@ img {
     text-align: center;
     padding: 5 0 5 0px;
     border-radius: 6px;
-    -webkit-box-shadow: 0 1px 2px #c8bfbf;
-    box-shadow: 0 1px 2px #c8bfbf;
+    -webkit-box-shadow: 0 0px 1px #c8bfbf;
+    box-shadow: 0 0px 1px #c8bfbf;
     height: 80px;
     -webkit-overflow-scrolling: touch;
     /* for tablets */
@@ -104,7 +104,7 @@ img {
     font-size: 50px;
     line-height: 150px;
     font-family: arial;
-    color: #555;
+    color: #292929;
     font-weight: bold;
     pointer-events: none;
     -webkit-transition: 0.2s ease-out;
@@ -169,8 +169,8 @@ img {
     z-index: 4;
     bottom: 0;
     left: 0;
-    background: #8a8585;
-    height: 4px;
+    background: #292929;
+    height: 2.5px;
     border-radius: 6px;
     opacity: 0;
     -webkit-transition: opacity0.1s, bottom 0.1s;
@@ -207,7 +207,7 @@ img {
 }
 
 li span {
-    color: black;
+    color: #292929;
     font-size: 35px;
     font-weight: bold;
 }
@@ -217,7 +217,7 @@ li span {
 }
 
 li sup {
-    color: black;
+    color: #292929;
 }
 
 #plz li a:after {
